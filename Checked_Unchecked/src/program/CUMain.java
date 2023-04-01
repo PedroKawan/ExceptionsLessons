@@ -3,7 +3,7 @@ package program;
 public class CUMain {
 	
 	public static void main(String[] args) {
-		// checked exceptions -> need treatment
+		// checked exceptions -> needs treatment to be compiled
 		
 		// need treatment -> with try-catch
 	    /*getException();*/
@@ -13,7 +13,7 @@ public class CUMain {
 			System.out.println(e.getMessage());
 		}
 		
-		// unchecked exceptions -> don't need treatment 
+		// unchecked exceptions -> don't need treatment
 		getRuntimeException();
 		
 				
